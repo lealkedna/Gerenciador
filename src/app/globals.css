@@ -16,16 +16,19 @@
   }
 }
 
-body {
-  /* color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); */
+main {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-image: url("https://blog.picpay.com/wp-content/uploads/2023/08/sua-vida-com-mais-pique-picpay.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.8;
 }
-
+h1{
+  font-size: 30px;
+  color: #fff;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;

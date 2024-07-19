@@ -1,0 +1,15 @@
+.transactionList {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .transaction {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .transaction p {
+    margin: 0;
+  }
